@@ -36,8 +36,8 @@ That is way beyond my capabilities.
 		   config: {
 		        videoCard: "NVIDIA GeForce GTX660", // name of your video card
         	   	maxWidth: "100%",
-        	   	animationSpeed: 0,         // 0 = no fade in and out. Only CPU load and Free RAM usage changes.
-			    updateInterval: 15 * 1000, // How often the CPU and Free RAM is checked for load and usage.
+        	   	animationSpeed: 0,         // 0 = no fade in and out.
+			updateInterval: 15 * 1000, // How often the data is checked.
 		}
     },
 	
