@@ -1,0 +1,423 @@
+/* Copy and paste any or all of these css entries into your custom.css file inside your
+ * css folder. The functions are annotated to make things as easy as possible for you.
+ * Use any colors you want! Go to - "http://htmlcolorcodes.com/color-picker/"
+ * Pick your color, copy and paste the HEX number. Example - #62FF00 = bright green.
+ */
+
+ @import url('https://fonts.googleapis.com/css?family=Muli:600');
+
+.MMM-HardwareMonitor .header {
+  color: #FFFFFF;               /* Header color. Default is white. */
+}
+
+.MMM-HardwareMonitor .RAMimg {
+  max-width: 250px;
+  margin-right: 0px;
+  margin-left: 70px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.MMM-HardwareMonitor .totalRAM {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  margin-right: 0px;
+  margin-left: 100px;
+  margin-top: -60px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+.MMM-HardwareMonitor .freeRAM {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  margin-right: 0px;
+  margin-left: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+.MMM-HardwareMonitor .yourCPU {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: -190px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.MMM-HardwareMonitor .CPUimg {
+  max-width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.MMM-HardwareMonitor .GPUimg {
+  position: absolute;
+  top: 45px;
+  right: 76px;
+  width: 400px;
+}
+
+.MMM-HardwareMonitor .threadsHeader {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  text-align: center;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.MMM-HardwareMonitor .spacer {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  text-align: center;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.MMM-HardwareMonitor .usage {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  text-align: center;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.MMM-HardwareMonitor .COREimg {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 13%;
+  margin-bottom: 0px;
+}
+
+.MMM-HardwareMonitor .MOBOimg {
+  position: absolute;
+  bottom: 0px;
+  left: 15px;
+  width: 500px;
+}
+
+.MMM-HardwareMonitor .FANimg {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+}
+
+.MMM-HardwareMonitor .graphicsTemp {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  position: absolute;
+  top: 200px;
+  right: 76px;
+}
+
+.MMM-HardwareMonitor .core0Temp {
+  font-family: Muli;
+/*  font-size: .6em; */
+	color: cyan;
+  text-align: center;
+  margin-top: -180px;
+}
+
+.MMM-HardwareMonitor .core1Temp {
+  font-family: Muli;
+/*  font-size: .6em; */
+	color: cyan;
+	text-align: center;
+	margin-top: 0px;
+}
+
+.MMM-HardwareMonitor .core2Temp {
+  font-family: Muli;
+/*  font-size: .6em; */
+	color: cyan;
+	text-align: center;
+	margin-top: 0px;
+}
+
+.MMM-HardwareMonitor .core3Temp {
+  font-family: Muli;
+/*  font-size: .6em; */
+	color: cyan;
+	text-align: center;
+	margin-top: 0px;
+}
+
+.MMM-HardwareMonitor .core4Temp {
+  font-family: Muli;
+/*  font-size: .6em; */
+	color: cyan;
+	text-align: right;
+	margin-top: 0px;
+}
+
+.MMM-HardwareMonitor .core5Temp {
+  font-family: Muli;
+/*  font-size: .6em; */
+	color: cyan;
+	text-align: right;
+	margin-top: 0px;
+}
+
+.MMM-HardwareMonitor .core6Temp {
+  font-family: Muli;
+/*  font-size: .6em; */
+	color: cyan;
+	text-align: right;
+	margin-top: 0px;
+}
+
+.MMM-HardwareMonitor .core7Temp {
+  font-family: Muli;
+/*  font-size: .6em; */
+	color: cyan;
+	text-align: right;
+	margin-top: 0px;
+}
+
+.MMM-HardwareMonitor .moboFan1 {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  /* text-align: right;
+  margin-right: 130px;
+  margin-left: 0px;
+  margin-top: 230px;
+  margin-bottom: 0px; */
+  position: absolute;
+  bottom: 450px;
+  right: 116px;
+}
+
+.MMM-HardwareMonitor .moboFan2 {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  /* text-align: right;
+  margin-right: 130px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: -150px; */
+  position: absolute;
+  bottom: 425px;
+  right: 116px;
+}
+
+.MMM-HardwareMonitor .sens1 {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  /* text-align: center;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px; */
+  position: absolute;
+  bottom: 620px;
+  left: 100px;
+}
+
+.MMM-HardwareMonitor .sens1Hyst {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  /* text-align: center;
+  margin-right: 0px;
+  margin-left: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px; */
+  position: absolute;
+  bottom: 590px;
+  left: 100px;
+}
+
+.MMM-HardwareMonitor .sens1High {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  /* text-align: center;
+  margin-right: 0px;
+  margin-left: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px; */
+  position: absolute;
+  bottom: 740px;
+  left: 100px;
+}
+
+.MMM-HardwareMonitor .sens2 {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  /* text-align: center;
+  margin-right: 0px;
+  margin-left: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px; */
+  position: absolute;
+  bottom: 530px;
+  left: 100px;
+}
+
+.MMM-HardwareMonitor .sens2Hyst {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  /* text-align: center;
+  margin-right: 0px;
+  margin-left: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px; */
+  position: absolute;
+  bottom: 500px;
+  left: 100px;
+}
+
+.MMM-HardwareMonitor .sens2High {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  /* text-align: center;
+  margin-right: 0px;
+  margin-left: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px; */
+  position: absolute;
+  bottom: 650px;
+  left: 100px;
+}
+
+.MMM-HardwareMonitor .sensor3 {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  /* text-align: center;
+  margin-right: 0px;
+  margin-left: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px; */
+  position: absolute;
+  bottom: 440px;
+  left: 100px;
+}
+
+.MMM-HardwareMonitor .sens3Hyst {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  /* text-align: center;
+  margin-right: 0px;
+  margin-left: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px; */
+  position: absolute;
+  bottom: 410px;
+  left: 100px;
+}
+
+
+
+.MMM-HardwareMonitor .rail {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  position: absolute;
+  bottom: 70px;
+  left: 210px;
+}
+
+.MMM-HardwareMonitor .standby {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+}
+
+.MMM-HardwareMonitor .Vbat {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  position: absolute;
+  bottom: 100px;
+  left: 340px;
+}
+
+.MMM-HardwareMonitor .gpuFan {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  /* text-align: right;
+  margin-right: 290px;
+  margin-left: 0px;
+  margin-top: -680px;
+  margin-bottom: 0px; */
+  position: absolute;
+  top: 260px;
+  right: 116px;
+}
+
+.MMM-HardwareMonitor .gpuTemp {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  /* text-align: right;
+  margin-right: 90px; */
+  position: absolute;
+  top: 290px;
+  right: 116px;
+}
+
+.MMM-HardwareMonitor .gpuTempHigh {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  position: absolute;
+  top: 320px;
+  right: 116px;
+}
+
+.MMM-HardwareMonitor .gpuTempCritical {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  position: absolute;
+  top: 350px;
+  right: 116px;
+}
+
+.MMM-HardwareMonitor .gpuTempEmergency {
+  color: cyan;
+  font-family: Muli;
+/*  font-size: .6em; */
+  position: absolute;
+  top: 380px;
+  right: 116px;
+}
+
+.MMM-HardwareMonitor .QUIETimg {
+  position: absolute;
+  bottom: 350px;
+  right: 420px;
+  width: 420px;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "mmm-hardwaremonitor",
+  "version": "1.0.0",
+  "description": "MagicMirror module to view hardware performance",
+  "main": "MMM-HardWareMonitor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mykle1/MMM-HardwareMonitor.git"
+  },
+  "author": "Mykle1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mykle1/MMM-HardwareMonitor/issues"
+  },
+  "homepage": "https://github.com/mykle1/MMM-HardwareMonitor#readme",
+  "dependencies": {
+    "pc-stats": "0.0.7",
+    "sensors.js": "1.1.3",
+    "lm_sensors.js": "0.5.1",
+		"path": "0.12.7"
+  }
+}
